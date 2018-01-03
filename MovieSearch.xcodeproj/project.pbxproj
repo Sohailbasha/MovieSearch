@@ -20,6 +20,8 @@
 		FDBC29AB1FFD758A00B07FC4 /* MovieClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC29AA1FFD758A00B07FC4 /* MovieClient.swift */; };
 		FDBC29AD1FFD771600B07FC4 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC29AC1FFD771600B07FC4 /* Movie.swift */; };
 		FDBC29B01FFD776E00B07FC4 /* MovieFeedResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC29AF1FFD776E00B07FC4 /* MovieFeedResult.swift */; };
+		FDBC29B31FFD855E00B07FC4 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC29B21FFD855E00B07FC4 /* Image.swift */; };
+		FDBC29B51FFD85E600B07FC4 /* ImageFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC29B41FFD85E600B07FC4 /* ImageFeed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		FDBC29AA1FFD758A00B07FC4 /* MovieClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieClient.swift; sourceTree = "<group>"; };
 		FDBC29AC1FFD771600B07FC4 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		FDBC29AF1FFD776E00B07FC4 /* MovieFeedResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFeedResult.swift; sourceTree = "<group>"; };
+		FDBC29B21FFD855E00B07FC4 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		FDBC29B41FFD85E600B07FC4 /* ImageFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFeed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 			children = (
 				FDBC29AC1FFD771600B07FC4 /* Movie.swift */,
 				FDBC29AF1FFD776E00B07FC4 /* MovieFeedResult.swift */,
+				FDBC29B21FFD855E00B07FC4 /* Image.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -103,11 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				FDBC29A01FFD64A400B07FC4 /* Result.swift */,
-				FDBC29A41FFD6D3B00B07FC4 /* MovieFeed.swift */,
 				FDBC29A21FFD698500B07FC4 /* Endpoint.swift */,
 				FDBC29A81FFD708800B07FC4 /* APIClient.swift */,
 				FDBC29AA1FFD758A00B07FC4 /* MovieClient.swift */,
+				FDBC29A41FFD6D3B00B07FC4 /* MovieFeed.swift */,
 				FDBC29A61FFD6F6800B07FC4 /* APIError.swift */,
+				FDBC29B41FFD85E600B07FC4 /* ImageFeed.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -185,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDBC29A11FFD64A400B07FC4 /* Result.swift in Sources */,
+				FDBC29B51FFD85E600B07FC4 /* ImageFeed.swift in Sources */,
 				FDBC29A91FFD708800B07FC4 /* APIClient.swift in Sources */,
 				FDBC29AD1FFD771600B07FC4 /* Movie.swift in Sources */,
 				FDBC29B01FFD776E00B07FC4 /* MovieFeedResult.swift in Sources */,
@@ -193,6 +200,7 @@
 				FDBC29A31FFD698500B07FC4 /* Endpoint.swift in Sources */,
 				FDBC299E1FFD608A00B07FC4 /* MainViewController.swift in Sources */,
 				FDBC29A51FFD6D3B00B07FC4 /* MovieFeed.swift in Sources */,
+				FDBC29B31FFD855E00B07FC4 /* Image.swift in Sources */,
 				FDBC29A71FFD6F6800B07FC4 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

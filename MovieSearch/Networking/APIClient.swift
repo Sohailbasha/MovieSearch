@@ -39,7 +39,7 @@ extension APIClient {
         task.resume()
     }
 
-    // Decodes JSON Data
+    // Decodes JSON Data & Returns Datatask
     private func decodingTask<T: Decodable>(with request: URLRequest, decodingType: T.Type, completionHandler completion: @escaping JSONTaskCompletionHandler) -> URLSessionDataTask {
         
         let task = session.dataTask(with: request) { data, response, error in

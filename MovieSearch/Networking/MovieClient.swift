@@ -16,6 +16,7 @@ class MovieClient: APIClient {
     }
     
     convenience init() {
+        // sets the URLSession o default
         self.init(configuration: .default)
     }
     
