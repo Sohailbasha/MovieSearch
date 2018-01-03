@@ -22,6 +22,7 @@
 		FDBC29B01FFD776E00B07FC4 /* MovieFeedResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC29AF1FFD776E00B07FC4 /* MovieFeedResult.swift */; };
 		FDBC29B31FFD855E00B07FC4 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC29B21FFD855E00B07FC4 /* Image.swift */; };
 		FDBC29B51FFD85E600B07FC4 /* ImageFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC29B41FFD85E600B07FC4 /* ImageFeed.swift */; };
+		FDBC29B71FFD8B1D00B07FC4 /* ImageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC29B61FFD8B1D00B07FC4 /* ImageClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		FDBC29AF1FFD776E00B07FC4 /* MovieFeedResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFeedResult.swift; sourceTree = "<group>"; };
 		FDBC29B21FFD855E00B07FC4 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		FDBC29B41FFD85E600B07FC4 /* ImageFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFeed.swift; sourceTree = "<group>"; };
+		FDBC29B61FFD8B1D00B07FC4 /* ImageClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				FDBC29A41FFD6D3B00B07FC4 /* MovieFeed.swift */,
 				FDBC29A61FFD6F6800B07FC4 /* APIError.swift */,
 				FDBC29B41FFD85E600B07FC4 /* ImageFeed.swift */,
+				FDBC29B61FFD8B1D00B07FC4 /* ImageClient.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				FDBC29AB1FFD758A00B07FC4 /* MovieClient.swift in Sources */,
 				FDBC29A31FFD698500B07FC4 /* Endpoint.swift in Sources */,
 				FDBC299E1FFD608A00B07FC4 /* MainViewController.swift in Sources */,
+				FDBC29B71FFD8B1D00B07FC4 /* ImageClient.swift in Sources */,
 				FDBC29A51FFD6D3B00B07FC4 /* MovieFeed.swift in Sources */,
 				FDBC29B31FFD855E00B07FC4 /* Image.swift in Sources */,
 				FDBC29A71FFD6F6800B07FC4 /* APIError.swift in Sources */,

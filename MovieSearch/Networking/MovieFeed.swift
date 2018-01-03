@@ -11,6 +11,7 @@ import Foundation
 enum MovieFeed {
     case nowPlaying
     case topRated
+    case configuration
 }
 
 extension MovieFeed: Endpoint {
@@ -22,6 +23,7 @@ extension MovieFeed: Endpoint {
         switch self {
             case .nowPlaying: return "/3/movie/now_playing"
             case .topRated: return "/3/movie/top_rated"
+            case .configuration return "/configuration"
         }
     }
 }
