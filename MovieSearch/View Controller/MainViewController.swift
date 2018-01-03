@@ -11,12 +11,23 @@ import UIKit
 class MainViewController: UIViewController {
     
     @IBOutlet var tableView: UITableView!
-
+    private let client = MovieClient()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupNavBar()
         tableView.delegate = self
         tableView.dataSource = self
+        
+        client.getFeed(from: .nowPlaying) { (result) in
+            switch result {
+            case .success(let movieFeedResult):
+                guard let movieResults = movieFeedResult?.results else { return }
+                print(movieResults)
+            case .failure(let error):
+                print("there was an error: \(error)")
+            }
+        }
     }
 
 
@@ -24,7 +35,7 @@ class MainViewController: UIViewController {
         navigationController?.navigationBar.prefersLargeTitles = true
         let searchController = UISearchController(searchResultsController: nil)
         navigationItem.searchController = searchController
-        navigationItem.hidesSearchBarWhenScrolling = false
+        navigationItem.hidesSearchBarWhenScrolling = true
     }
   
 
