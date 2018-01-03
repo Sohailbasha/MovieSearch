@@ -15,11 +15,14 @@ enum ImageFeed {
 
 extension ImageFeed: Endpoint {
     var base: String {
-        <#code#>
+        return "https://image.tmdb.org/t/p/"
     }
     
     var path: String {
-        <#code#>
+        switch self {
+        case .poster: return "w300"
+        case .backdrop: return "w500"
+        }
     }
     
     
