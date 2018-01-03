@@ -19,4 +19,10 @@ class MovieClient: APIClient {
         self.init(configuration: .default)
     }
     
+    func getFeed(from movieFeedType: MovieFeed, completion: @escaping (Result<MovieFeedResult?, APIError>) -> Void) {
+        fetch(with: movieFeedType.request , decode: { json -> MovieFeedResult? in
+            guard let movieFeedResult = json as? MovieFeedResult else { return  nil }
+            return movieFeedResult
+        }, completion: completion)
+    }
 }
