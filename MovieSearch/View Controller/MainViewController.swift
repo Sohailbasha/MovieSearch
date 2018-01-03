@@ -12,6 +12,13 @@ class MainViewController: UIViewController {
     
     @IBOutlet var tableView: UITableView!
     private let client = MovieClient()
+    var movies: [Movie]? {
+        didSet {
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +30,7 @@ class MainViewController: UIViewController {
             switch result {
             case .success(let movieFeedResult):
                 guard let movieResults = movieFeedResult?.results else { return }
+                self.movies = movieResults
                 print(movieResults)
             case .failure(let error):
                 print("there was an error: \(error)")
@@ -52,12 +60,14 @@ class MainViewController: UIViewController {
 
 extension MainViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return movies?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "movieCell", for: indexPath)
-        
+        guard let movies = movies else { return UITableViewCell() }
+        let movie = movies[indexPath.row]
+        cell.textLabel?.text = movie.title
         return cell
     }
 }
