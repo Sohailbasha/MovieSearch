@@ -16,6 +16,7 @@
 		FDBC29A31FFD698500B07FC4 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC29A21FFD698500B07FC4 /* Endpoint.swift */; };
 		FDBC29A51FFD6D3B00B07FC4 /* MovieFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC29A41FFD6D3B00B07FC4 /* MovieFeed.swift */; };
 		FDBC29A71FFD6F6800B07FC4 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC29A61FFD6F6800B07FC4 /* APIError.swift */; };
+		FDBC29A91FFD708800B07FC4 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC29A81FFD708800B07FC4 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FDBC29A21FFD698500B07FC4 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		FDBC29A41FFD6D3B00B07FC4 /* MovieFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFeed.swift; sourceTree = "<group>"; };
 		FDBC29A61FFD6F6800B07FC4 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		FDBC29A81FFD708800B07FC4 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				FDBC29A21FFD698500B07FC4 /* Endpoint.swift */,
 				FDBC29A41FFD6D3B00B07FC4 /* MovieFeed.swift */,
 				FDBC29A61FFD6F6800B07FC4 /* APIError.swift */,
+				FDBC29A81FFD708800B07FC4 /* APIClient.swift */,
 				FDBC299F1FFD633800B07FC4 /* View Controller */,
 				FDBC29921FFD5E1B00B07FC4 /* Assets.xcassets */,
 				FDBC29941FFD5E1B00B07FC4 /* LaunchScreen.storyboard */,
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDBC29A11FFD64A400B07FC4 /* Result.swift in Sources */,
+				FDBC29A91FFD708800B07FC4 /* APIClient.swift in Sources */,
 				FDBC298C1FFD5E1B00B07FC4 /* AppDelegate.swift in Sources */,
 				FDBC29A31FFD698500B07FC4 /* Endpoint.swift in Sources */,
 				FDBC299E1FFD608A00B07FC4 /* MainViewController.swift in Sources */,
