@@ -32,6 +32,7 @@ class MainViewController: UIViewController {
                 guard let movieResults = movieFeedResult?.results else { return }
                 self.movies = movieResults
                 print(movieResults)
+                
             case .failure(let error):
                 print("there was an error: \(error)")
             }
