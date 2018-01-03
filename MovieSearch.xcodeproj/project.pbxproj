@@ -13,6 +13,7 @@
 		FDBC29961FFD5E1B00B07FC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBC29941FFD5E1B00B07FC4 /* LaunchScreen.storyboard */; };
 		FDBC299E1FFD608A00B07FC4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC299D1FFD608A00B07FC4 /* MainViewController.swift */; };
 		FDBC29A11FFD64A400B07FC4 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC29A01FFD64A400B07FC4 /* Result.swift */; };
+		FDBC29A31FFD698500B07FC4 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC29A21FFD698500B07FC4 /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FDBC29971FFD5E1B00B07FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDBC299D1FFD608A00B07FC4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FDBC29A01FFD64A400B07FC4 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		FDBC29A21FFD698500B07FC4 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FDBC298B1FFD5E1B00B07FC4 /* AppDelegate.swift */,
 				FDBC298F1FFD5E1B00B07FC4 /* Main.storyboard */,
 				FDBC29A01FFD64A400B07FC4 /* Result.swift */,
+				FDBC29A21FFD698500B07FC4 /* Endpoint.swift */,
 				FDBC299F1FFD633800B07FC4 /* View Controller */,
 				FDBC29921FFD5E1B00B07FC4 /* Assets.xcassets */,
 				FDBC29941FFD5E1B00B07FC4 /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 			files = (
 				FDBC29A11FFD64A400B07FC4 /* Result.swift in Sources */,
 				FDBC298C1FFD5E1B00B07FC4 /* AppDelegate.swift in Sources */,
+				FDBC29A31FFD698500B07FC4 /* Endpoint.swift in Sources */,
 				FDBC299E1FFD608A00B07FC4 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
