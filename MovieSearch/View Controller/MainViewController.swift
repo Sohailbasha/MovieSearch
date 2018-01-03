@@ -8,13 +8,17 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    @IBOutlet var tableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         self.setupNavBar()
+        tableView.delegate = self
+        tableView.dataSource = self
     }
+
 
     func setupNavBar() {
         navigationController?.navigationBar.prefersLargeTitles = true
